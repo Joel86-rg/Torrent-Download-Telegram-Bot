@@ -82,7 +82,7 @@ async def inline_handlers(_, inline: InlineQuery):
                             message_text=f"No Torrents Found For `{query}` in ThePirateBay !!",
                             parse_mode="Markdown"
                         ),
-                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Try Again", switch_inline_query_current_chat="!pb ")]])
+                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Feedback", url="https://t.me/sanilaassistant_bot")]])
                     )
                 )
             else:
