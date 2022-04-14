@@ -30,8 +30,8 @@ async def start_handler(_, message: Message):
         await message.reply_text(
             text="🤗Hello, I am simple Torrent Search Bot!\n"
                  "🔎I can search Torrent Magnetic Links from Inline.\n"
-                 "**💡Pro Tip: Can't understand this bot?? First learn it from [here](https://t.me/sanilaassistant_bot) **\n"
-                 "**[Start first](https://t.me/sanilaassistant_bot) > Learn Bots > Torrent Downloader bot**\n\n"
+                 "**💡Pro Tip: Can't understand this bot?? First learn it from [here.](https://t.me/sanilaassistant_bot) **\n"
+                 "**[  Start first](https://t.me/sanilaassistant_bot) > Learn Bots > Torrent Downloader bot**\n\n"
                  "✨Developer: Sanila Ranatunga\n✨Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot)",
             disable_web_page_preview=True,
             parse_mode="Markdown",
