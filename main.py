@@ -101,7 +101,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**🔗Leechers:** `{torrentList[i]['Leechers']}`\n"
                                              f"**📤Uploader:** `{torrentList[i]['Uploader']}`\n"
                                              f"**📭Uploaded :** {torrentList[i]['Date']}**\n\n"
-                                             f"**🗒Magnet:**\n`{torrentList[i]['Magnet']}`\n\n Developer: Sanila Ranatunga\n Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot)",
+                                             f"**🗒Magnet:**\n`{torrentList[i]['Magnet']}`\n\n◉ Developer: Sanila Ranatunga\n◉ Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot)",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
@@ -153,7 +153,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**🌟Rating:** `{torrentList[i]['Rating']}`\n"
                                              f"**📊Duration:** `{torrentList[i]['Runtime']}`\n"
                                              f"**🗓Released on {torrentList[i]['ReleaseDate']}**\n\n"
-                                             f"**🔗Torrent Download Links:**\n{dl_links}\n\n  Developer: Sanila Ranatunga\n Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot) ",
+                                             f"**🔗Torrent Download Links:**\n{dl_links}\n\n◉ Developer: Sanila Ranatunga\n◉ Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot) ",
                                 parse_mode="Markdown",
                                 disable_web_page_preview=True
                             ),
@@ -204,7 +204,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                              f"**🔗Leechers:** `{torrentList[i]['Leecher']}`\n"
                                              f"**📊Size:** `{torrentList[i]['Size']}`\n"
                                              f"**📭Uploaded on:** `{torrentList[i]['Date']}`\n\n"
-                                             f"**🗒Magnet:** \n`{torrentList[i]['Magnet']}`\n\n Developer: Sanila Ranatunga\n Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot)",
+                                             f"**🗒Magnet:** \n`{torrentList[i]['Magnet']}`\n\n◉ Developer: Sanila Ranatunga\n◉ Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot)",
                                 parse_mode="Markdown"
                             ),
                             reply_markup=InlineKeyboardMarkup(
@@ -244,7 +244,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                          f"__Uploaded by {torrentList[i]['UploadedBy']}__\n"
                                          f"__Uploaded {torrentList[i]['DateUploaded']}__\n"
                                          f"__Last Checked {torrentList[i]['LastChecked']}__\n\n"
-                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\n Developer: Sanila Ranatunga\n Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot) ",
+                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\n◉ Developer: Sanila Ranatunga\n◉ Feedback : [Submit by clicking](https://t.me/sanilaassistant_bot) ",
                             parse_mode="Markdown"
                         ),
                         reply_markup=InlineKeyboardMarkup(
